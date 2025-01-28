@@ -1,0 +1,61 @@
+/* Basic styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDE6E6; /* Light pink background */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FDE6E6; /* Light pink background */
+  }
+  
+  /* Logo */
+  .logo {
+    margin-right: 20px;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 68px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Search */
+  .search {
+    flex: initial;
+    margin:  20px;
+    
+  }
+  
+  .search input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    width: 73%;
+  }
+  
+  /* Icons */
+  .icons {
+    display: flex;
+  }
+  
+  .icons i {
+    margin-left: 10px;
+    font-size: 20px;
+  }

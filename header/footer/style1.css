@@ -1,0 +1,95 @@
+/* Basic styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ff005229;
+    color:aqua;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  /* Newsletter section */
+  .newsletter {
+    text-align: center;
+  }
+  
+  .newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter p {
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-group input[type="email"] {
+    padding: 10px;
+    /* border: none; */
+    border-radius: 3px 0 0 3px; 
+  }
+.input-group{
+  /* background-color: aqua; */
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+  
+  /* Footer section */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .footer div {
+    flex-basis: 20%;
+  }
+  
+  .footer h4 {
+    margin-bottom: 15px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer .social ul {
+    display: flex;
+  }
+  
+  .footer .social ul li {
+    margin-right: 100px;
+  }
+  
+  .footer .social ul li a {
+    color: #dd6363;
+  }
+  
+  /* Copyright section */
+  .copyright {
+    text-align: center;
+    margin-top: 30px;
+  }

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MAC Lipstick Mini - Ruby Woo</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <style>
+        .product-image img {
+            width: 100%;
+            height: 300px;
+            object-fit:contain   ;
+             margin-top: 17px ;       
+             background-color: #efdae11a;
+             
+                 border-right:1px solid #888; 
+  
+  
+
+             
+    }
+
+        .color-swatches {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .swatch {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #c93838;
+            margin: 5px;
+            background-color: #f80202;
+        }
+
+        .swatch1 {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #0e0d0d;
+            margin: 5px;
+            background-color: #820ec5;
+        }
+
+        .swatch2 {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #0e0d0d;
+            margin: 5px;
+            background-color: #039ef8;
+        }
+
+        .swatch3 {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #0e0d0d;
+            margin: 5px;
+            background-color: #ddf503;
+        }
+
+        .swatch4 {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #0e0d0d;
+            margin: 5px;
+            background-color: rgb(48, 18, 214);
+        }
+
+        .swatch5 {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #0e0d0d;
+            margin: 5px;
+            background-color: #1f1f1f;
+        }
+
+        .swatch6 {
+            width: 20px;
+            height: 20px;
+            border: 1px solid;
+            margin: 5px;
+            background-color: wheat;
+        }
+
+        .swatch7 {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #0e0d0d;
+            margin: 5px;
+            background-color: #1f1f1f;
+        }
+
+        .swatch8 {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #0e0d0d;
+            margin: 5px;
+            background-color: #0bac48;
+        }
+
+
+        .notify-me input {
+            margin-right: 10px;
+            width: 100px;
+            height: 30px;
+        }
+
+        .tab-content {
+            margin-top: 10px;
+        }
+
+        .rating {
+            color: #ffb900;
+        }
+
+        .notify-me button,
+        .delivery-option button,
+        .add-to-bag {
+            padding: 10px 20px;
+            background-color: #ff0000;
+            /* Replace with actual button color */
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .product-description {
+            margin: 20px;
+        }
+
+        .add-to-bag {
+            background-color: #ff69b4;
+            /* Pink color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Styles for the "Enter Pincode" and "Check" buttons */
+        .pincode-button {
+            background-color: #f0f0f0;
+            /* Light gray background */
+            color: #888;
+            /* Gray text color */
+            border: 1px solid #ccc;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Styles for the "Check" button specifically */
+        .check-button {
+            background-color: #ff69b4;
+            /* Pink color */
+            color: white;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="product-image border-end">
+                        <img src="lipstick.png"
+                            alt="MAC Lipstick Mini - Ruby Woo">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="product-info">
+                        <h2>M.A.C Lipstick / Mini - Ruby Woo</h2>
+                        <div class="star-rating">
+                            <i class="filled">★</i>
+                            <i class="filled">★</i>
+                            <i class="filled">★</i>
+                            <i class="filled">★</i>
+                            <i class="half">★</i>
+                            <style>
+                            .filled {
+                                font-size: 20px;
+                            }
+                            .half{
+                                font-size: 20px;
+                            }
+
+                            .star-rating {
+                                display: inline-block;
+                                font-size: 14px;
+
+                              
+                                color: #f08080;
+                                
+                            }
+
+                            .star-rating i {
+                                margin: 0 0.1em;
+                            }
+
+                            .star-rating .filled {
+                                color: #f08080;
+                                                       }
+
+                            .star-rating .half {
+                                position: relative;
+                            }
+
+                            .star-rating .half::before {
+                                content: "\2605";
+                              
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                overflow: hidden;
+                                width: 50%;
+                                
+                            }
+
+                            .notify-me {
+                                text-align: center;
+                                margin-bottom: 10px;
+                            }
+                        </style>
+
+                            <span class="rating">4.4/5</span>
+                            <span class="reviews">(26503 ratings & 5109
+                                reviews)</span>
+                        </div>
+
+                        <p>MRP: ₹1450</p>
+                        <p>Inclusive of all taxes</p>
+                        <div class="color-swatches">
+                            <div class="swatch"></div>
+                            <div class="swatch1"></div>
+                            <div class="swatch2"></div>
+                            <div class="swatch3"></div>
+                            <div class="swatch4"></div>
+                            <div class="swatch5"></div>
+                            <div class="swatch6"></div>
+                            <div class="swatch7"></div>
+                            <div class="swatch8"></div>
+                            </div>
+                                   <p>Notify me when product is Available </p>
+                            <div class="form-group d-flex w-100">
+                                <input type="email" class="form-control"
+                                    placeholder="Enter Email Address">
+
+                                <button class="btn btn-primary w-50 "><i
+                                        class="fas fa-bell "></i> Notify Me
+
+                                </button>
+
+                            </div>
+                            <div>
+                                <button class="btn btn-secondary">Check Delivery
+                                    Option</button>
+
+                                <div
+                                    class="d-flex mt-3 justify-content-between"></div>
+                                <style>
+                                p {
+                                    margin-left: 20px;
+                                }
+                            </style>
+                                <div><button class="add-to-bag">Add to
+                                        Bag</button>
+
+                                    <button class="pincode-button">Enter
+                                        Pincode</button>
+                                    <button
+                                        class="pincode-button check-button">Check</button>
+                                </div>
+
+                            </div>
+                           <div class ="d-flex" <p>100% Genuine Products
+                                                          </p>
+                            <p>Easy Returns</p></div>
+                                            </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-description">
+                            <h2>Product Description</h2>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        id="description-tab" data-toggle="tab"
+                                        href="#description"
+                                        role="tab" aria-controls="description"
+                                        aria-selected="true">Description</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="ingredients-tab"
+                                        data-toggle="tab" href="#ingredients"
+                                        role="tab" aria-controls="ingredients"
+                                        aria-selected="false">Ingredients</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="how-to-use-tab"
+                                        data-toggle="tab" href="#how-to-use"
+                                        role="tab"
+                                        aria-controls="how-to-use"
+                                        aria-selected="false">How to use</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active"
+                                    id="description" role="tabpanel"
+                                    aria-labelledby="description-tab">
+                                    <p>Major cult shades made mini. Ten hues,
+                                        three textures. The iconic product that
+                                        made
+                                        M.A.C famous.</p>
+                                    <p>Available in the below shared
+                                        formulas:</p>
+                                    <ul>
+                                        <li>Retro Matte: zero-shine matte
+                                            finish</li>
+                                        <li>Matte: the original matte
+                                            finish</li>
+                                        <li>Satin: velvet sheen finish</li>
+                                    </ul>
+                                    <p>Country of Origin: Belgium / Canada /
+                                        Czech Republic / Dominican Republic /
+                                        France /
+                                        Germany / Italy / Japan / South Korea /
+                                        Mexico / North Macedonia / Poland /
+                                        Switzerland</p>
+                                </div>
+                                <div class="tab-pane fade" id="ingredients"
+                                    role="tabpanel"
+                                    aria-labelledby="ingredients-tab">...</div>
+                                <div class="tab-pane fade" id="how-to-use"
+                                    role="tabpanel"
+                                    aria-labelledby="how-to-use-tab">
+                                    ...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script
+                src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+            <script
+                src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        </body>
+
+    </html>

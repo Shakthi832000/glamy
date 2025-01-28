@@ -1,0 +1,42 @@
+.back-arrow {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .cart-table {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .cart-table p {
+    margin-bottom: 0;
+  }
+  
+  .cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  
+  .product-image {
+    width: 80px;
+    margin-right: 20px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-control button {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  .remove-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }

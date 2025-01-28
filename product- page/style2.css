@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.product-image {
+    width: 100%; /* Replace with actual width from image */
+    height: 306px; /* Replace with actual height from image */
+}
+
+.product-image img {
+    width: 100%;
+    height: 306px;
+    object-fit: contain;
+}
+
+.product-info {
+    width: 40%;
+}
+
+.product-info h2 {
+    margin: 0;
+}
+
+.rating {
+    color: #ffb900;
+}
+
+.color-swatches {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.swatch {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    background-color: #ccc; /* Replace with actual swatch colors */
+}
+
+.notify-me input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.notify-me button,
+.delivery-option button,
+.add-to-bag {
+    padding: 10px 20px;
+    background-color: #ff0000; /* Replace with actual button color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-description {
+    margin: 20px;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #f0f0f0;
+}
+
+.tab-content {
+    margin-top: 10px;
+}
+.star-rating {
+    display: inline-block;
+    font-size: 2em; /* Adjust size as needed */
+    color: #f08080; /* Pink color */
+  }
+
+  .star-rating i {
+    margin: 0 0.1em;
+  }
+
+  .star-rating .filled {
+    color: #f08080; /* Pink color */
+  }
+
+  .star-rating .half {
+    position: relative;
+  }
+
+  .star-rating .half::before {
+    content: "\2605"; /* Unicode for filled star */
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 50%; /* Half star width */
+  }
+/*samples*/
