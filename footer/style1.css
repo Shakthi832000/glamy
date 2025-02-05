@@ -93,3 +93,39 @@ body {
     text-align: center;
     margin-top: 30px;
   }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFC0CB; /* Pink background color */
+}
+
+.follow-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.follow-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #FF69B4; /* Pink button color */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 10px;
+    color: #fff;
+}
